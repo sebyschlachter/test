@@ -12,10 +12,26 @@
         let rez = nr1 ** nr2; // la putere
         console.log(rez);
 
+        let compara1 = 55;
+        let compara2 = 55;
+        let rezcomp = compara1-compara2;
+        console.log(rezcomp);
+        if(rezcomp>0){
+            console.log("var compar1 e mai mare");
+        }else 
+            if(rezcomp<0){
+                console.log("var compar2 e mai mare");
+            }else{
+                console.log("var sunt egale");
+            }
+
         var tabel = ["unu","doi", "trei","patru"];
         tabel.push("cinci");
         console.log(tabel);
         console.log(tabel[4]);
+        for(var cheie=0;cheie<5;cheie++){
+            console.log("afisez numarul de la pozitia "+cheie+": "+tabel[cheie]);
+        }
     </script>
 </body>
 </html>
